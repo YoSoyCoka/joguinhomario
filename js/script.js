@@ -33,7 +33,7 @@ const loop = setInterval(() => {
         clearInterval(loop);
     } 
 
-    if(moedaPos <= 120 && moedaPos > 0 && marioPos < 80){
+    if(moedaPos <= 120 && moedaPos > 0 && marioPos > 80){
         moeda.classList.remove('moeda');
         void moeda.offsetWidth; 
         moeda.classList.add('moeda');
