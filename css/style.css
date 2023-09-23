@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.borda_principal {
+    border-bottom: 20px solid #3a5318 ;
+    width: 100%;
+    height: 905px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgb(133, 234, 241), #cdd4d4);
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 400px;
+  }
+.nuvens{
+    margin-top: 20px;
+    width: 550px;
+    position: absolute;
+    animation: nuvens_animation 15s  linear infinite;
+
+}
+
+.kingboo {
+    position: absolute;
+    bottom: 400px;
+    left: 70px;
+    width: 100px;
+    animation: kingboo_animation 2s linear infinite;
+}
+
+.pipe {
+    bottom: 0;
+    position: absolute;
+    height: 90px;
+    width: 88px;
+    animation: pipe_animation 2s linear infinite;
+}
+.jump {
+    animation: mario_animation 600ms ease-out;
+    
+}
+.mario {
+    bottom: 0;
+    position: absolute;
+    width: 150px;
+}
+.moeda {
+    position: absolute;
+    bottom: 200px;
+    width: 50px;
+    animation: moeda_animation 10s linear infinite;
+}
+
+
+@keyframes moeda_animation {
+    from {
+        right: -90px;
+    }
+    to {
+        right: 100%;
+    }  
+}
+
+
+@keyframes pipe_animation {
+    from {
+        right: -90px;
+    }
+    to {
+        right: 100%;
+    }  
+}
+
+@keyframes mario_animation {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 25%;
+    }
+    60% {
+        bottom: 25%;
+    }
+    100% {
+        bottom: 0%;
+    }  
+}
+
+@keyframes nuvens_animation {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }  
+}
+
+@keyframes kingboo_animation {
+    0% {
+        bottom: 400px;
+    }
+    40% {
+        bottom: 415px;
+    }
+    50% {
+        bottom: 405px;
+    }
+    60% {
+        bottom: 400px;
+    }
+    80% {
+        bottom: 397px;
+    }
+}
+    
