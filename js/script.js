@@ -1,7 +1,9 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const moeda = document.querySelector('.moeda');
-const audio = document.querySelector('audio');
+const audio_moeda = document.querySelector('audio');
+
+
 
 const jump = () => {
     mario.classList.add('jump');
@@ -37,20 +39,12 @@ const loop = setInterval(() => {
         moeda.classList.remove('moeda');
         void moeda.offsetWidth; 
         moeda.classList.add('moeda');
-        audio.play();
+        audio_moeda.play();
 
     } 
     
     
 }, 10);
-
-
-
-
-
-
-
-
 
 document.addEventListener('keydown', jump);
 
