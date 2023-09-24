@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,10 @@
 .logo {
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 45%;
+    right: 50%;
     width: 400px;
+    
   }
 .nuvens{
     margin-top: 20px;
@@ -35,12 +39,21 @@
     animation: kingboo_animation 2s linear infinite;
 }
 
+
 .pipe {
     bottom: 0;
     position: absolute;
     height: 90px;
     width: 88px;
     animation: pipe_animation 2s linear infinite;
+}
+
+.pipe-rapido {
+    bottom: 0;
+    position: absolute;
+    height: 90px;
+    width: 88px;
+    animation: pipe_animation 1s linear infinite;
 }
 .jump {
     animation: mario_animation 600ms ease-out;
@@ -57,7 +70,23 @@
     width: 50px;
     animation: moeda_animation 10s linear infinite;
 }
+ .score {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    right: 50%;
+    width: 400px;
+    font-family: 'Press Start 2P', cursive;
+    color: #7e6f3e;
+ }
+ .moeda-score {
+    position: absolute;
+    top: 45%;
+    left: 53.5%;
+    right: 50%;
+    width: 20px;
 
+ }	
 
 @keyframes moeda_animation {
     from {
@@ -119,4 +148,6 @@
         bottom: 397px;
     }
 }
-    
+
+
+
