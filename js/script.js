@@ -54,7 +54,7 @@ const loop = setInterval(() => {
 
          let ehscorealto = +pontuacao.innerHTML.replace('x', '');
 
-         if (ehscorealto >= 5) {
+         if (ehscorealto >= 3) {
             pipe.classList.remove('pipe');
             void pipe.offsetWidth;
             pipe.classList.add('pipe-rapido');

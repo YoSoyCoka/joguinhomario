@@ -53,7 +53,7 @@
     position: absolute;
     height: 90px;
     width: 88px;
-    animation: pipe_animation 1s linear infinite;
+    animation: pipe_animation 1.5s linear infinite;
 }
 .jump {
     animation: mario_animation 600ms ease-out;
