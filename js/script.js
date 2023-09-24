@@ -68,9 +68,4 @@ const loop = setInterval(() => {
 document.addEventListener('keydown', jump);
 
 
-function reniciargame() {
-    window.location.reload();
-    window.prompt('Digite seu nome: ');
-}
-
 
