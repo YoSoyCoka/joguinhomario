@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.borda_principal {
+.borda_principal_game {
     border-bottom: 20px solid #3a5318 ;
     width: 100%;
     height: 905px;
@@ -13,6 +13,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgb(133, 234, 241), #cdd4d4);
+    display: none;
 }
 
 .logo {
@@ -37,6 +38,45 @@
     left: 70px;
     width: 100px;
     animation: kingboo_animation 2s linear infinite;
+}
+
+.tela_inicial {
+    /* background-image: url(https://i.pinimg.com/originals/dc/8d/ef/dc8def609c27f9123c4f61a83a3b93bd.jpg); */
+    background: linear-gradient(rgb(133, 234, 241), #cdd4d4);
+    background-size:contain;
+    width: 100%;
+    height: 905px;
+
+}
+
+.titulo{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    right: 50%;
+    color: #7e6f3e;
+}
+
+.botao_iniciar {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    right: 50%;
+    width: 400px;
+    color: #000000;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.mario_menu{
+    position: absolute;
+    bottom: 57%;
+    right: 28%;
+    width: 100px;
 }
 
 
