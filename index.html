@@ -8,12 +8,47 @@
 </head>
 <body>
     <div class="tela_inicial">
-        <img src="imgs/logo_coka_jump.png" class="titulo">
-        <button class="botao_iniciar" onclick="iniciarJogo()">Iniciar Jogo</button>
+        <img src="imgs/logoCOKAJUMP.png" class="titulo">
         <img src="imgs/mario_menu.gif" class="mario_menu">
-        <!-- <img src="imgs/3e477e83c35e2a7a38f19ccdad163faa.gif" class="bob-menu"> -->
+        <img src="imgs/JOGAR.png" onclick="iniciarJogo()" class="botao_iniciar"> <br><br><br><br>
+        <img src="imgs/loja.png" class="botao_iniciar" onclick="abrirloja()">
     </div>
 
+    <div class="loja">
+        <div class="skin">
+            <img src="imgs/skins/ursos.gif" style="width: 180px;">
+            <h2>Ursos sem curso</h2>
+            <button>Comprar</button>
+        </div>
+
+        <div class="skin">
+            <img src="imgs/skins/pikachu.gif" style="margin-top: 10px;"><br><br><br><br><br>
+            <h2>Pikachu</h2>
+            <button>Comprar</button>
+        </div>
+
+        <div class="skin">
+            <img src="imgs/skins/tumblr_91f98c78ec93adb00b51640b91149491_04262d0a_500.gif"><br><br><br>
+            <h2>Mario Broth</h2>
+            <button onclick="comprar_skin('mario-broth')">Comprar</button>
+        </div>
+
+        <div class="skin">
+            <img src="imgs/skins/rapazinho.png"><br>
+            <h2>Ô Rapazinho</h2>
+            <button onclick="comprar_skin('rapazinho')">Comprar</button>
+        </div>
+
+        <div class="skin">
+            <img src="imgs/skins/goiabado.png" style="width: 190px;"><br>
+            <h2>Goiabado</h2>
+            <button onclick="comprar_skin('goiabado')">Comprar</button>
+        </div>
+
+        <img src="imgs/VOLTAR.png"  onclick="voltarmenu()" class="btn-voltar">
+        <!-- Adicione mais skins conforme necessário -->
+
+</div>
     <div class="borda_principal_game">
         <img src="imgs/pipe.png" class="pipe">
         <img src="imgs/moeda.gif" class="moeda">
@@ -29,6 +64,7 @@
 
         <p id="score" class="score" > 0 x</p>
         <img src="imgs/moeda.gif" class="moeda-score">
+        <button type="button" class="btn-reniciargame" onclick="reniciarJogo()" >Tentar Novamente</button>
     </div>
     
     

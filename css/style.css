@@ -16,6 +16,51 @@
     display: none;
 }
 
+.loja {
+    background: linear-gradient(rgb(133, 234, 241), #cdd4d4);
+    display: none;
+    width: 100%;
+    height: 960px;
+    position: absolute;
+    background: linear-gradient(rgb(133, 234, 241), #cdd4d4); 
+}
+
+.btn-voltar{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.skin {
+    margin-left: 500px;
+    border: 2px solid #ffffff;
+    margin: 20px;
+    padding: 10px;
+    background-color: #da5d5d;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+.skin img {
+    max-width: 100%;
+    height: auto;
+}
+
+.skin h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: black;
+}
+
+.skin p {
+    font-size: 16px;
+}
+
 .logo {
     position: absolute;
     top: 20%;
@@ -31,7 +76,6 @@
     animation: nuvens_animation 15s  linear infinite;
 
 }
-
 .kingboo {
     position: absolute;
     bottom: 400px;
@@ -39,47 +83,46 @@
     width: 100px;
     animation: kingboo_animation 2s linear infinite;
 }
-
 .tela_inicial {
-    /* background-image: url(https://i.pinimg.com/originals/dc/8d/ef/dc8def609c27f9123c4f61a83a3b93bd.jpg); */
     background: linear-gradient(rgb(133, 234, 241), #cdd4d4);
     background-size:contain;
     width: 100%;
-    height: 905px;
+    height: 1080px;
 
 }
-
 .titulo{
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 32%;
     right: 50%;
-    color: #7e6f3e;
 }
-
 .botao_iniciar {
+    margin-top: 450px;
+    width: 100px;
+    margin-left: 47%;
+    cursor: pointer;
+    padding: auto;
     position: absolute;
-    top: 50%;
+}
+.btn-reniciargame {
+    position: absolute;
+    top: 60%;
     left: 45%;
     right: 50%;
     width: 400px;
     color: #000000;
     border-radius: 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid #10adad;
     padding: 10px;
     cursor: pointer;
-    transition: 0.5s;
+    display: none;
 }
-
-
 .mario_menu{
     position: absolute;
-    bottom: 57%;
-    right: 28%;
-    width: 100px;
+    bottom: 55%;
+    right: 47%;
+    width: 200px;
 }
-
-
 .pipe {
     bottom: 0;
     position: absolute;
@@ -87,7 +130,6 @@
     width: 88px;
     animation: pipe_animation 2s linear infinite;
 }
-
 .pipe-rapido {
     bottom: 0;
     position: absolute;
@@ -136,8 +178,6 @@
         right: 100%;
     }  
 }
-
-
 @keyframes pipe_animation {
     from {
         right: -90px;
